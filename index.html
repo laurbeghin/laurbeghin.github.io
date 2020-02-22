@@ -15,7 +15,7 @@ layout: default
       <div class="date">{{ post.author }} on {{ post.date | date: "%B %e, %Y" }}</div>
       {% if post.tags.size > 0 %}
 	<div class="date">Tag(s):{% for tag in post.tags %}
-	    <a href="tag#2020{{ tag }}">{{ tag }}</a>
+	    <a href="tag#{{ tag }}">{{ tag }}</a>
 		{% endfor %}
 	</div>
 	<!--div class="date">Tag(s): {{post.tags | remove: '"' | join: ', ' | remove: '[' | remove: ']' | capitalize}}</div-->
