@@ -11,7 +11,7 @@ title: tag
 	{% if post.redirect_url %}
         	{% capture url_to_use %}{{ post.redirect_url" }}{% endcapture %}
 	{% endif %}
-	<li><a href="{{ site.baseurl }} {{ url_to_use }}">{{ post.title }}</a></li>
+	<li><a href="{{ site.baseurl }} {{ url_to_use }}">{{ post.title }} | <div class="date">{{ post.author }} on {{ post.date | date: "%B %e, %Y" }}</div> </a></li>
     {% endfor %}
   </ul>
 {% endfor %}
