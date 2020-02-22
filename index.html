@@ -14,7 +14,7 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ url_to_use }}">{{ post.title }}</a></h1>
       <div class="date">{{ post.author }} on {{ post.date | date: "%B %e, %Y" }}</div>
       {% if post.tags.size > 0 %}
-	<div>--> {{ tags | sort | join: ", " }}</div>
+	<div> TagTest: {{ tags | sort | join: ", " }}</div>
 	<div class="date">Tag(s): {{post.tags | remove: '"' | join: ', ' | remove: '[' | remove: ']' | capitalize}}</div>
       {% endif %}
       <div class="entry">
