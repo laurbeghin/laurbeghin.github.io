@@ -4,7 +4,7 @@ title: tag
 ---
 
 {% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
+  <div id="#{{ tag[0] }}"> <h3>{{ tag[0] }}</h3> </div>
   <ul>
     {% for post in tag[1] %}
 	{% capture url_to_use %}{{ post.url" }}{% endcapture %}
