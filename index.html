@@ -17,7 +17,7 @@ layout: default
 	<div class="date">Tag: {{post.tags | capitalize | join: ', '}}</div>
 	<div class="date">Tag: 
 		{% for tag in post.tags %}
-		  {{ tag.capitalize }}
+		  {{tag | capitalize}}
 		{% endfor %}
 	    </div>
       {% endif %}
