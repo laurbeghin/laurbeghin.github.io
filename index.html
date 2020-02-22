@@ -13,7 +13,9 @@ layout: default
       
       <h1><a href="{{ site.baseurl }}{{ url_to_use }}">{{ post.title }}</a></h1>
       <div class="date">{{ post.author }} on {{ post.date | date: "%B %e, %Y" }}</div>
-      <div>{{post.tags | capitalize | join: ', '}}</div>
+      {% if post.tags %}
+	<div class="date">Tag: {{post.tags | capitalize | join: ', '}}</div>
+      {% endif %}
       <div class="entry">
          {{ post.excerpt | add: '...'}}<!-- span style="display: inline">…</span-->
       </div>
