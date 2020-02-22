@@ -2,7 +2,7 @@
 layout: post
 title: Serverless Functions — Some Like It AOT!
 excerpt: This article explains how Fn users can use GraalVM and the benefits its AOT compiler brings to Serverless Java functions....
-Author: David Delabassee
+author: David Delabassee
 ---
 
 This article explains how Fn users can use GraalVM and the benefits GraalVM and its Ahead-of-Time (AOT) compiler bring to Serverless Java functions.
