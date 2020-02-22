@@ -13,6 +13,7 @@ layout: default
       
       <h1><a href="{{ site.baseurl }}{{ url_to_use }}">{{ post.title }}</a></h1>
       <div class="date">{{ post.author }} - {{ post.date | date: "%B %e, %Y" }}</div>
+      <div>{{page.tags | capitalize | join: ', '}}</div>
       <div class="entry">
          {{ post.excerpt | add: '...'}}<!-- span style="display: inline">…</span-->
       </div>
