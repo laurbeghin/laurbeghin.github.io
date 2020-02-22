@@ -2,7 +2,7 @@
 layout: post
 title: Some personal news…
 excerpt: I rarely post personal related stuff but I owe some updates…
-Author: David Delabassee
+author: David Delabassee
 ---
 
 **TL;DR** Everything is now fine! There’s nothing more important than family! There are amazing humans in the Java community and I have great colleagues! Thank you all!
