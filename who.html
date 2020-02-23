@@ -1,0 +1,15 @@
+---
+layout: default
+title: who
+permalink: /who
+---
+
+  <ul>	  
+  {% for post in posts %}
+		<li><a href="{{ site.baseurl }} {{ url_to_use }}">{{ post.title }}
+	    <div class="date">{{ post.author }} on {{ post.date | date: "%B %e, %Y" }}
+		 </div></a>
+	</li>
+    {% endfor %}
+  </ul>
+{% endfor %}
