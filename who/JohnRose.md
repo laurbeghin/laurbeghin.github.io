@@ -11,7 +11,11 @@ permalink: /BioJohnRose
 
   <ul>	  
   {% for post in site.posts %}
-  {% if post.author == "John Rose" %} 
+  {% if post.author == "John Rose" %}
+	{% capture url_to_use %}{{ post.url" }}{% endcapture %}
+        {% if post.redirect_url %}
+           {% capture url_to_use %}{{ post.redirect_url" }}{% endcapture %}
+        {% endif %}
 	<li><a href="{{ site.baseurl }} {{ url_to_use }}">{{ post.title }}
 	    <div class="date">{{ post.date | date: "%B %e, %Y" }}</div></a>
 	</li>
