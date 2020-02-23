@@ -1,7 +1,7 @@
 ---
 layout: default
 title: who
-permalink: /BioAlanBateman.md
+permalink: /BioAlanBateman
 ---
 
 <h4>Alan Bateman</h4>
