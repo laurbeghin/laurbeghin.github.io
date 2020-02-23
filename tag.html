@@ -3,10 +3,10 @@ layout: default
 title: tag
 permalink: /tag
 ---
-
-{% for tag in site.tags %}
+{% assign sortedtags = site.tags | sort %}
+{% for tag in sortedtags %}
   <h3 id="{{ tag[0] | downcase }}">{{ tag[0] }}</h3>
-  <ul>
+  <ul>	  
     {% for post in tag[1] %}
 	{% capture url_to_use %}{{ post.url" }}{% endcapture %}
 	{% if post.redirect_url %}
