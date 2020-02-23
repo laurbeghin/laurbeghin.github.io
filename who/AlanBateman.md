@@ -11,10 +11,14 @@ permalink: /BioAlanBateman.md
 
   <ul>	  
   {% for post in site.posts %}
-  {% if post.author == "Alan Bateman" %} 
-	<li><a href="{{ site.baseurl }} {{ url_to_use }}">{{ post.title }}
+  {% if post.author == "Alan Bateman" %}
+      {% capture url_to_use %}{{ post.url" }}{% endcapture %}
+      {% if post.redirect_url %}
+        {% capture url_to_use %}{{ post.redirect_url" }}{% endcapture %}
+      {% endif %}
+      <li><a href="{{ site.baseurl }} {{ url_to_use }}">{{ post.title }}
 	    <div class="date">{{ post.date | date: "%B %e, %Y" }}</div></a>
-	</li>
+      </li>
   {% endif %}
   {% endfor %}
   </ul>
