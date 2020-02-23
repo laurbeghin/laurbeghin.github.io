@@ -11,7 +11,7 @@ permalink: /BioJornVernee
 
   <ul>	  
   {% for post in site.posts %}
-  {% if post.author == "Per Liden" %} 
+  {% if post.author == "Jorn Vernee" %} 
 	<li><a href="{{ site.baseurl }} {{ url_to_use }}">{{ post.title }}
 	    <div class="date">{{ post.date | date: "%B %e, %Y" }}</div></a>
 	</li>
