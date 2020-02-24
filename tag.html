@@ -3,7 +3,7 @@ layout: default
 title: tag
 permalink: /tag
 ---
-{% assign sortedtags = site.tags | sort %}
+{% assign sortedtags = site.tags | downcase | sort %}
 {% for tag in sortedtags %}
   <h3 id="{{ tag[0] | downcase }}">{{ tag[0] }}</h3>
   <ul>	  
