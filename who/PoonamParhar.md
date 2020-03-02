@@ -1,7 +1,7 @@
 ---
 layout: default
 title: who
-permalink: /PoonamParhar
+permalink: /BioPoonamParhar
 ---
 
 <h4>Poonam Parhar</h4>
