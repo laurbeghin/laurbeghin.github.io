@@ -28,7 +28,7 @@ permalink: /BioPerLiden
 <center>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7k_XfLGu-Ts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="date">The Z Garbage Collector (ZGC) - Overview (Oct. 2018)</div>
+<div class="date">The Z Garbage Collector (ZGC) - Overview (Oct. 2018)</div><br/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kF_r3GE3zOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="date">ZGC: A Scalable Low-Latency Garbage Collector (Oct. 2018)</div>
