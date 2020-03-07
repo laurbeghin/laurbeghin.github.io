@@ -6,8 +6,11 @@ permalink: /BioPerLiden
 
 <h4>Per Liden</h4>
 
-<div>Per's bio... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div>I’m Per Lidén, software engineer and part of the team developing OpenJDK at Oracle. I’m lead for the [ZGC](https://wiki.openjdk.java.net/display/zgc/Main) project, where we’re developing the next generation low-latency garbage collector for Java. The views expressed on this blog are my own and do not necessarily reflect the views of my employer.</div>
 
+<a href="https://www.twitter.com/perliden"><i class="svg-icon twitter"></i>@perliden</a>
+
+<h4>Posts</h4>
 
   <ul>	  
   {% for post in site.posts %}
@@ -22,3 +25,8 @@ permalink: /BioPerLiden
   {% endif %}
   {% endfor %}
   </ul>
+
+<h4>Video</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kF_r3GE3zOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="date">ZGC: A Scalable Low-Latency Garbage Collector (Oct. 2018)</div>
