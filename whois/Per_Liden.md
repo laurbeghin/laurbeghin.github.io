@@ -4,6 +4,8 @@ title: bio
 permalink: /whois/PerLiden
 author: Per Liden
 ---
+--> {{ page.filename }}
+--> {{ page }}
 
 <h4>{{ page.author }}</h4>
 
