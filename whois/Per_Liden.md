@@ -9,6 +9,7 @@ auhtor: Per Liden
 
 <div>I’m Per Lidén, software engineer and part of the team developing OpenJDK at Oracle. I’m lead for the <a href="https://wiki.openjdk.java.net/display/zgc/Main">ZGC</a> project, where we’re developing the next generation low-latency garbage collector for Java. The views expressed on this blog are my own and do not necessarily reflect the views of my employer.</div>
 
+
 {% include listPosts.html author = page.author %}
 
 <h4>Videos</h4>
