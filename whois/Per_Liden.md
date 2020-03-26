@@ -1,7 +1,7 @@
 ---
 layout: default
-title: whoPxxxxxx
-permalink: /BioPerLidenxxxx
+title: {{ page.auhtor }}
+permalink: /whois/PerLiden
 auhtor: Per Liden
 ---
 
