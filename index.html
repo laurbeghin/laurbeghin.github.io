@@ -14,8 +14,8 @@ layout: default
       <h2><a href="{{ site.baseurl }}{{ url_to_use }}">{{ post.title }}</a></h2>
       <div class="date">
 	      <a href="{{ site.baseurl }}/Bio{{ post.author | remove: " " }}">{{ post.author }}</a>
-	      <a href="{{ site.baseurl }}/whois/{{ post.author | replace: " ", "_" }}">{{ post.author }}</a>
 	      on {{ post.date | date: "%B %e, %Y" }}
+	      <nospan>Test : <a href="{{ site.baseurl }}/whois/{{ post.author | replace: " ", "_" }}">{{ post.author }}</a></nospan>
       </div>
       {% if post.tags.size > 0 %}
 	<div class="date">
