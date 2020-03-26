@@ -1,6 +1,6 @@
 ---
 layout: default
-title: {{ page.auhtor }}
+title: Per Lidén
 permalink: /whois/PerLiden
 auhtor: Per Liden
 ---
